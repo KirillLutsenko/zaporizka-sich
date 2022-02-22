@@ -1,22 +1,20 @@
 // Core
 import React, { FC } from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 // Components
 import { ErrorBoundary } from '../../components';
+import { Header } from '../../components/Header';
 
 // Styles
-import { Container, Nav } from './styles';
+import * as S from './styles';
 
 const Main: FC = () => {
     return (
-        <Container>
-            <Nav>
-                <Link to = 'register'>Registation</Link>
-                {/* <Link to = '/items'>Items</Link> */}
-            </Nav>
+        <S.Container>
+            <Header />
             <Outlet />
-        </Container>
+        </S.Container>
     );
 };
 

@@ -7,6 +7,12 @@ import reset from 'styled-reset';
 
 export const GlobalStyles = createGlobalStyle`
     ${reset}
+
+    *,
+    *:after,
+    *:before {
+        box-sizing: border-box;
+    }
     
     /* Chrome, Safari, Edge, Opera */
     input::-webkit-outer-spin-button,

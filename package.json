@@ -5,7 +5,7 @@
     "author": "kirilucenko@gmail.com",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Arziburst/boilerplate.git"
+        "url": "https://github.com/KirillLutsenko/zaporizka-sich.git"
     },
     "scripts": {
         "start": "cross-env-shell NODE_ENV=development ts-node -P \"./tsconfig.webpack.json\" \"./scripts/webpack/start\"",
@@ -19,6 +19,7 @@
         "@fortawesome/fontawesome-svg-core": "^1.2.36",
         "@fortawesome/free-solid-svg-icons": "^5.15.4",
         "@fortawesome/react-fontawesome": "^0.1.15",
+        "@material-ui/core": "^4.12.3",
         "@reduxjs/toolkit": "^1.6.1",
         "lodash": "^4.17.21",
         "moment": "^2.29.1",
@@ -26,6 +27,7 @@
         "react-dom": "^17.0.2",
         "react-redux": "^7.2.5",
         "react-router-dom": "^6.0.2",
+        "reactjs-popup": "^2.0.5",
         "redux": "^4.1.1",
         "redux-saga": "^1.1.3",
         "store": "^2.0.12",
